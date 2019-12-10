@@ -1,0 +1,175 @@
+#menu {
+    overflow:hidden;
+    position:absolute;
+    width:200px;
+    height:400px;
+    top:0px;
+    left:0px;
+}
+#menuBackGround
+{
+    background-image:url("../img/road.jpg") ;
+    -webkit-transform:rotate(90deg);
+    -moz-transform:rotate(90deg);
+    width:400px;
+    height:400px;
+    top:0px;
+    left:0px;
+    background-size: 400px 200px;
+}
+    
+#gameTitle {
+    position:absolute;
+    background-color:#f2f2f2;
+    color:red;
+    width:120px;
+    height:16px;
+    padding:6px;
+    top:140px;
+    left:35px;
+    text-align:center;
+}
+#game {
+    overflow:hidden;
+    position:absolute;
+    width:200px;
+    height:400px;
+    top:0px;
+    left:0px;
+    
+}
+
+#GUI {
+    overflow:hidden;
+    position:absolute;
+    width:200px;
+    height:400px;
+    top:0px;
+    left:0px;
+}
+
+#timer {
+    overflow:hidden;
+    position:absolute;
+    width:200px;
+    height:20px;
+    top:10px;
+    left:0px;
+    text-align:center;
+    color:white;
+}
+
+#debug {
+    /*overflow:hidden;*/
+    position:absolute;
+    width:200px;
+    height:20px;
+    top:30px;
+    left:10px;
+    text-align:center;
+    color:white;
+}
+
+#road1Image {
+    background-image:url("../img/road.jpg") ;
+    -webkit-transform:rotate(90deg);
+    -moz-transform:rotate(90deg);
+    width:400px;
+    height:400px;
+    top:0px;
+    left:0px;
+    background-size: 400px 200px;
+}
+
+#road1 {
+    overflow:hidden;
+    position:absolute;
+    /*background-color:#00cc99;*/
+    width:200px;
+    height:400px;
+    top:0px;
+}
+
+#road2Image {
+    background-image:url("../img/road.jpg") ;
+    -webkit-transform:rotate(90deg);
+    -moz-transform:rotate(90deg);
+    width:400px;
+    height:400px;
+    top:0px;
+    left:0px;
+    background-size: 400px 200px;
+}
+#road2 {
+    overflow:hidden;
+    position:absolute;
+    /*background-color:#00cc11;*/
+    width:200px;
+    height:400px;
+    top:-400px;
+}
+#heroImage {
+    background-image:url("../img/car.gif");
+   /* -webkit-transform:rotate(-90deg);
+    -moz-transform:rotate(-90deg); */
+    background-size: 60px 45px;
+    background-position: center; 
+    position:absolute;
+    width:54px;
+    height:50px;
+    top:-2px;
+    left:-15px;
+}
+#hero {
+     overflow:hidden;
+    position:absolute;
+    width:24px;
+    height:48px;
+    top:-10px;
+    left:65px;
+}
+
+#truck {
+    overflow:hidden;
+    position:absolute;
+    /*background-color:red;*/
+    width:24px;
+    height:54px;
+    top:-2px;
+    left:-15px;
+}
+#truckImage {
+    background-image:url("../img/car2.gif");
+   /* -webkit-transform:rotate(-90deg);
+    -moz-transform:rotate(-90deg); */
+    background-size: 60px 45px;
+    background-position: center; 
+    position:absolute;
+    width:54px;
+    height:50px;
+    top:-2px;
+    left:-15px;
+}
+#start {
+    position:absolute;
+    background-color:#f2f2f2;
+    /color:red;
+    width:60px;
+    height:16px;
+    padding:6px;
+    top:90px;
+    left:65px;
+    text-align:center;
+}
+
+#tutorial {
+    position:absolute;
+    background-color:#f2f2f2;
+    color:gray;
+    width:160px;
+    height:46px;
+    padding:6px;
+    top:180px;
+    left:15px;
+    text-align:center;
+}

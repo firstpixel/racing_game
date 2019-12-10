@@ -1,0 +1,13 @@
+{
+  "name": "racing_game",
+  "version": "1.0.0",
+  "description": "Node.js on Docker to run game",
+  "author": "Gil Beyruth <gilbeyruth@gmail.com>",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.1"
+  }
+}
